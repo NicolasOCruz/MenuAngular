@@ -16,6 +16,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './components/home/home.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatBadgeModule } from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatToolbarModule,
     MatGridListModule,
     MatMenuModule,
-    MatTabsModule
+    MatTabsModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
