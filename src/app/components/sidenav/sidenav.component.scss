@@ -1,0 +1,53 @@
+.example-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.example-is-mobile .example-toolbar{
+    position: fixed;
+    z-index: 2;
+}
+h1.example-app-name{
+    margin-left: 8px;
+}
+.example-sidenav-container{
+    flex: 1;
+}
+.example-is-mobile .example-sidenav-container{
+    flex: 1 0 auto;
+}
+mat-sidenav{
+    width: 220px;
+}
+.icono{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+::ng-deep .mat-menu-content {
+    a:hover{
+        color: rgba(3, 15, 83, 1) !important;
+    }
+
+}
+.focus a:hover{
+    color: white !important;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+::ng-deep .mat-drawer-inner-container::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.26);
+}
+
+::ng-deep .mat-drawer-inner-container::-webkit-scrollbar {
+    height: 4px !important;
+    width: 4px !important;
+}
